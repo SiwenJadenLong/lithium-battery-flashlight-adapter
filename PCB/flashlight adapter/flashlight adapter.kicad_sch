@@ -1936,33 +1936,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET_Other:Q_NMOS_Depletion_GSD"
+		(symbol "FS8205A:FS8205A"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at -11.43 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Q_NMOS_Depletion_GSD"
-				(at 5.08 0 0)
+			(property "Value" "FS8205A"
+				(at -11.43 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "FS8205A:SOP65P640X120-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1971,7 +1980,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1980,28 +1989,130 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
+			(property "MF" "Fortune Semiconductor"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NMOS"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_Depletion_GSD_0_1"
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "FS8205A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Fortune Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "FS8205A_0_0"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy -2.54 7.62) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -2013,19 +2124,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 -2.286)
+						(xy -2.54 -2.54) (xy -2.54 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -2037,31 +2136,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy -1.778 8.255) (xy -1.778 7.62)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2072,21 +2148,202 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy -1.778 7.62) (xy -1.778 6.985)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy -1.778 7.62) (xy 1.27 7.62)
+					)
 					(stroke
-						(width 0)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 5.842) (xy -1.778 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 5.08) (xy -1.778 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 3.175) (xy -1.778 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.905) (xy -1.778 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -2.54) (xy -1.778 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -4.318) (xy -1.778 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -5.08) (xy -1.778 -5.842)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -6.985) (xy -1.778 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -7.62) (xy -1.778 -8.255)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.08) (xy -0.508 5.842) (xy -0.508 4.318) (xy -1.524 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -5.08) (xy -0.508 -4.318) (xy -0.508 -5.842) (xy -1.524 -5.08)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -2094,10 +2351,117 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
+					(center 0 7.62)
+					(radius 0.3592)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy -1.778 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 4.572) (xy 1.27 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.572) (xy 1.27 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.572) (xy 1.778 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.572) (xy 1.778 5.334) (xy 0.762 5.334) (xy 1.27 4.572)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -2106,8 +2470,31 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 1.27 2.54) (xy -1.778 2.54)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.3592)
 					(stroke
 						(width 0)
 						(type default)
@@ -2118,8 +2505,55 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 1.27 0) (xy 1.27 2.54)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.3592)
 					(stroke
 						(width 0)
 						(type default)
@@ -2130,68 +2564,195 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 1.27 -4.572) (xy 0.762 -4.572)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Q_NMOS_Depletion_GSD_1_1"
-				(pin input line
-					(at -5.08 0 0)
+				(polyline
+					(pts
+						(xy 1.27 -4.572) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.572) (xy 0.762 -5.334) (xy 1.778 -5.334) (xy 1.27 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -4.572) (xy 1.27 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "G"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at -5.08 -7.62 0)
 					(length 2.54)
-					(name "D"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "S"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3062,12 +3623,6 @@
 		(uuid "299c29ca-e7f7-479e-b286-0ef14ab091fc")
 	)
 	(junction
-		(at 337.82 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3655f8cf-698d-4ea8-946b-b5393d56440e")
-	)
-	(junction
 		(at 76.2 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3104,6 +3659,12 @@
 		(uuid "550705e4-bde6-4fd9-b6c4-304941208855")
 	)
 	(junction
+		(at 278.13 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "618375af-58c9-49af-9598-7c390701a5de")
+	)
+	(junction
 		(at 325.12 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3126,12 +3687,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ad3f79e-ad1b-4da4-9835-62cc6b9f0e8b")
-	)
-	(junction
-		(at 275.59 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c11a983-da24-4120-ace0-e59021d2bb02")
 	)
 	(junction
 		(at 76.2 109.22)
@@ -3208,6 +3763,10 @@
 	(no_connect
 		(at 71.12 91.44)
 		(uuid "139a56f8-2de6-4322-81ef-001e7a6b8f97")
+	)
+	(no_connect
+		(at 191.77 130.81)
+		(uuid "14b1855f-0721-44ef-bd86-b23ed191bbbc")
 	)
 	(no_connect
 		(at 30.48 86.36)
@@ -3311,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 81.28) (xy 275.59 81.28)
+			(xy 267.97 81.28) (xy 278.13 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3479,6 +4038,16 @@
 		)
 		(uuid "36e4f305-2500-4db3-8648-b4f0966b6f97")
 	)
+	(wire
+		(pts
+			(xy 191.77 120.65) (xy 194.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37076927-6f95-471e-abe4-a4fa6c80269c")
+	)
 	(polyline
 		(pts
 			(xy 349.25 104.14) (xy 349.25 123.19)
@@ -3488,16 +4057,6 @@
 			(type default)
 		)
 		(uuid "374268a9-97db-45ab-933e-e25ed5f7b7f1")
-	)
-	(wire
-		(pts
-			(xy 186.69 118.11) (xy 182.88 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384ceaa4-0f9e-485d-b6b6-a36b0122a837")
 	)
 	(polyline
 		(pts
@@ -3541,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 125.73) (xy 203.2 125.73)
+			(xy 201.93 125.73) (xy 203.2 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3551,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 102.87) (xy 275.59 102.87)
+			(xy 279.4 102.87) (xy 278.13 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3611,13 +4170,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 114.3) (xy 186.69 118.11)
+			(xy 278.13 90.17) (xy 278.13 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50df9b6b-d47a-4737-91aa-39615c987200")
+		(uuid "5013ba2a-abb4-41ff-a5a1-e5e3f5d9e70e")
 	)
 	(wire
 		(pts
@@ -3678,16 +4237,6 @@
 			(type default)
 		)
 		(uuid "61635c4c-dbfc-4ef4-be64-a646cc2687e4")
-	)
-	(wire
-		(pts
-			(xy 337.82 115.57) (xy 340.36 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676e7d66-f938-43ed-9829-1c33ccb9a69c")
 	)
 	(wire
 		(pts
@@ -4031,6 +4580,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 114.3) (xy 186.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72f7fce-123b-4df6-84eb-b70730c3573f")
+	)
+	(wire
+		(pts
 			(xy 325.12 81.28) (xy 337.82 81.28)
 		)
 		(stroke
@@ -4061,7 +4620,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 102.87) (xy 275.59 81.28)
+			(xy 278.13 102.87) (xy 278.13 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4098,16 +4657,6 @@
 			(type default)
 		)
 		(uuid "b8671a8e-37e2-419e-81a5-eae4d285cd94")
-	)
-	(wire
-		(pts
-			(xy 278.13 90.17) (xy 278.13 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa82274-473b-42ac-b2c7-579dbce1ae0c")
 	)
 	(wire
 		(pts
@@ -4301,16 +4850,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 81.28) (xy 278.13 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d99da1d8-e258-40d3-a1f5-395d1ed7c5b5")
-	)
-	(wire
-		(pts
 			(xy 64.77 251.46) (xy 64.77 254)
 		)
 		(stroke
@@ -4358,16 +4897,6 @@
 			(type default)
 		)
 		(uuid "deb05ff2-5812-43e5-b5fc-847cceab8637")
-	)
-	(wire
-		(pts
-			(xy 191.77 118.11) (xy 193.04 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df37b764-af8a-43db-a2f5-6b679ec93540")
 	)
 	(polyline
 		(pts
@@ -4431,13 +4960,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 114.3) (xy 191.77 118.11)
+			(xy 191.77 114.3) (xy 191.77 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0276694-7b90-4931-9614-b04c0bb47b01")
+	)
+	(wire
+		(pts
+			(xy 186.69 120.65) (xy 184.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4110348-4598-427a-a44f-ca3a0e72d35b")
 	)
 	(wire
 		(pts
@@ -4451,7 +4990,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 125.73) (xy 149.86 125.73)
+			(xy 181.61 125.73) (xy 149.86 125.73)
 		)
 		(stroke
 			(width 0)
@@ -12545,16 +13084,6 @@
 		)
 		(uuid "a44ed30d-079b-4347-a9fa-52d889a6cdfc")
 	)
-	(label "9V-"
-		(at 340.36 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2d1726c-ddb0-4bce-b1dd-79234491643d")
-	)
 	(label "BAT"
 		(at 100.33 199.39 0)
 		(effects
@@ -12736,77 +13265,6 @@
 			(project "flashlight adapter"
 				(path "/c9f4ea88-7d55-4782-bced-492862ca2959"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 182.88 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a796453-6f21-42d0-a23e-af34acac9290")
-		(property "Reference" "Q1"
-			(at 182.88 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS_Depletion"
-			(at 183.134 135.128 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DN2625K4:TO-252-3_MCH-L"
-			(at 182.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/microchip-technology/DN2625K4-G/4902753"
-			(at 182.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
-			(at 182.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8576a9f8-eaa3-42c6-9c76-846407037221")
-		)
-		(pin "1"
-			(uuid "1d4cab3a-74d9-426e-a21a-114916d9ed88")
-		)
-		(pin "2"
-			(uuid "1d6d0a41-b179-419c-aa8b-0f4f043b7c3f")
-		)
-		(instances
-			(project ""
-				(path "/c9f4ea88-7d55-4782-bced-492862ca2959"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -13106,7 +13564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2kΩ"
 			(at 205.74 121.9199 0)
 			(effects
 				(font
@@ -13753,7 +14211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 320.04 81.28 0)
 			(effects
 				(font
@@ -13762,7 +14220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/B240A-13-F/717691"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SS24FL/5305066"
 			(at 320.04 81.28 0)
 			(effects
 				(font
@@ -14079,10 +14537,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8440c065-b7f6-40cf-95e7-89ac2eaaa79d")
 		(property "Reference" "U2"
-			(at 189.23 96.52 0)
+			(at 200.66 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14090,7 +14547,7 @@
 			)
 		)
 		(property "Value" "DW01A"
-			(at 189.23 99.06 0)
+			(at 200.66 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14350,77 +14807,6 @@
 			(project ""
 				(path "/c9f4ea88-7d55-4782-bced-492862ca2959"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 193.04 123.19 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c541a4b-f285-480f-b534-41a71a329cea")
-		(property "Reference" "Q2"
-			(at 193.04 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS_Depletion_GSD"
-			(at 187.706 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DN2625K4:TO-252-3_MCH-L"
-			(at 193.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/microchip-technology/DN2625K4-G/4902753"
-			(at 193.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
-			(at 193.04 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0e467480-218f-4084-9152-8d6c2efc39fc")
-		)
-		(pin "1"
-			(uuid "66d3b3c1-2b34-4be1-98d9-ce3b98d86a20")
-		)
-		(pin "3"
-			(uuid "b53bfe08-e697-40de-ae68-2e6e6f3d0602")
-		)
-		(instances
-			(project "flashlight adapter"
-				(path "/c9f4ea88-7d55-4782-bced-492862ca2959"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -15055,6 +15441,215 @@
 		)
 	)
 	(symbol
+		(lib_id "FS8205A:FS8205A")
+		(at 191.77 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be75fb28-547f-4756-9e0e-f5fe1aefd19b")
+		(property "Reference" "Q1"
+			(at 194.5387 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS8205A"
+			(at 194.5387 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FS8205A:SOP65P640X120-8N"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Fortune Semiconductor"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=eda"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.7"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=snap"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FS8205A"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Fortune Semiconductor"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8685a83-c553-4540-a546-5f551e7d4e1f")
+		)
+		(pin "7"
+			(uuid "db2902c5-e9e7-4ecd-b044-e6541d110845")
+		)
+		(pin "8"
+			(uuid "e690240c-b6ea-4ce6-8bfa-abab073346f1")
+		)
+		(pin "3"
+			(uuid "06941223-4d0c-46b5-84f9-c66bfc12d3da")
+		)
+		(pin "6"
+			(uuid "bff570c3-73a7-4ee3-b0f8-ff98f8eee423")
+		)
+		(pin "5"
+			(uuid "ce9f6cf8-df2d-4257-bacf-92f6ec1c9a91")
+		)
+		(pin "4"
+			(uuid "43e2e15d-228e-40d2-9eb7-3a92a86dd06d")
+		)
+		(pin "1"
+			(uuid "fefad736-67c0-463e-9600-5aaaa35bd805")
+		)
+		(instances
+			(project ""
+				(path "/c9f4ea88-7d55-4782-bced-492862ca2959"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 125.73 0)
 		(unit 1)
@@ -15251,72 +15846,6 @@
 			(project ""
 				(path "/c9f4ea88-7d55-4782-bced-492862ca2959"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 297.18 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce5e8422-9367-4566-a791-bf14c1d8bc94")
-		(property "Reference" "#PWR010"
-			(at 297.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 297.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a8db93e-2266-427b-bc27-e97cfe2709f1")
-		)
-		(instances
-			(project "flashlight adapter"
-				(path "/c9f4ea88-7d55-4782-bced-492862ca2959"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)

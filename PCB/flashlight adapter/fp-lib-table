@@ -3,4 +3,5 @@
   (lib (name "USB4105_GF_A")(type "KiCad")(uri "${KIPRJMOD}/Downloaded/USB4105_GF_A")(options "")(descr ""))
   (lib (name "DN2625K4")(type "KiCad")(uri "${KIPRJMOD}/Downloaded/DN2625K4_G/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "pads")(type "KiCad")(uri "${KIPRJMOD}/Custom/pads.pretty")(options "")(descr ""))
+  (lib (name "FS8205A")(type "KiCad")(uri "${KIPRJMOD}/Downloaded/FS8205A")(options "")(descr ""))
 )
