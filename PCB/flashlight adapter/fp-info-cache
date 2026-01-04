@@ -1,4 +1,4 @@
-27371289291111707
+27380127665362644
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60486,6 +60486,27 @@ ceramic
 0
 3
 3
+DN2625K4
+TO-252-3_MCH
+
+DN2625K4-G 
+0
+3
+3
+DN2625K4
+TO-252-3_MCH-L
+
+DN2625K4-G 
+0
+3
+3
+DN2625K4
+TO-252-3_MCH-M
+
+DN2625K4-G 
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -108828,3 +108849,17 @@ Varistor VF
 0
 2
 2
+pads
+3mm_by_4mm_pad
+
+
+0
+1
+1
+pads
+4mm_by_4mm_pad
+
+
+0
+1
+1
