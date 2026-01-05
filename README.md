@@ -32,6 +32,5 @@ https://www.18650batterystore.com/products/sinowatt-70hp-26650-7000mah-14a-batte
 4. profit?
 
 
-CAD idea representation:
-
-![CAD model of the 26650 battery and avilable space in the flashlight](prelim_cad.png)
+PCB V1:
+![alt text](image.png)
