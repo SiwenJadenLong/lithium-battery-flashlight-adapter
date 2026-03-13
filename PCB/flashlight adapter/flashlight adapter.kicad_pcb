@@ -9114,8 +9114,8 @@
 		(layer "Edge.Cuts")
 		(uuid "fda955a0-f93a-406a-b12f-eaed35d9156e")
 	)
-	(gr_text "9V li-ion flashlight Adapter V1\nMade with <3 by\nSiwen Long"
-		(at 138.7 104.8 315)
+	(gr_text "9V li-ion flashlight Adapter V1.1\nMade with <3 by\nSiwen Long"
+		(at 138.9 105.2 315)
 		(layer "B.SilkS")
 		(uuid "41fca0aa-f709-463e-ae8f-0cb7029c706d")
 		(effects
